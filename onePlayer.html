@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+
+<body>
+    <a href="index.html"><h1>Hangman!</h1></a>
+    <button type="button" name="button" id="newGame">Start Game</button>
+    <div id="hangman">
+        <form name="game">
+            Pick your letter: <input type="text" id="display" placeholder="Choose a Letter"><button type="button" name="button" id="submit">Submit</button>
+        </form>
+        <p id="error"></p>
+        <img id="hung" src="assets/gallows.jpg"></img>
+        <img id="win"></img>
+        <p id="gameOver"></p>
+        <p id="pick"></p>
+    </div>
+    <script src="hangman.js">
+    </script>
+</body>
+
+</html>

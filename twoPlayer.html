@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+
+<body>
+    <a href="index.html"><h1>Hangman!</h1></a>
+    <p id="error"></p>
+    <div id="input">
+        <form name="game1">
+            Input word and start new game: <input type="text" id="display1" placeholder="Choose your word"><button type="button" name="button" id="submit1">Submit</button>
+        </form>
+
+    </div>
+    <div id="hangman1">
+        <form name="game" id="form">
+            Pick your letter: <input type="text" id="display" placeholder="Choose a Letter"><button type="button" name="button" id="submit">Submit</button>
+        </form>
+        <img id="hung" src="assets/gallows.jpg"></img>
+        <img id="win"></img>
+        <p id="gameOver"></p>
+        <p id="pick"></p>
+
+    </div>
+    <script src="hangman2.js">
+    </script>
+</body>
+
+</html>

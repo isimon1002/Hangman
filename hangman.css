@@ -1,0 +1,16 @@
+#win {
+    display: none;
+    height: 350px;
+}
+
+#hangman1 {
+    display: none;
+}
+
+h1 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
